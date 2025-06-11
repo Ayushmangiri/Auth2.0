@@ -13,7 +13,8 @@ public class UserService {
     private final List<User>store= new ArrayList<>();
 
     public UserService(){
-        store.add(new User(UUID.randomUUID().toString(),"Ayushmna","ayushmangiri@gmail.com","pass@123"));
+        store.add(new User(UUID.randomUUID().toString(),"Ayushman","ayushmangiri@gmail.com","pass@123"));
+
         store.add(new User(UUID.randomUUID().toString(),"harsh","harsh@gmail.com","pass@123"));
 
         store.add(new User(UUID.randomUUID().toString(),"akshay","akshay@gmail.com","pass@123"));
