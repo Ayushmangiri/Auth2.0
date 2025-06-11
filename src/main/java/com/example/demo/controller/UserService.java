@@ -14,11 +14,11 @@ public class UserService {
 
     public UserService(){
         store.add(new User(UUID.randomUUID().toString(),"Ayushmna","ayushmangiri@gmail.com","pass@123"));
-        store.add(new User(UUID.randomUUID().toString(),"harsh","harshgiri@gmail.com","pass@123"));
+        store.add(new User(UUID.randomUUID().toString(),"harsh","harsh@gmail.com","pass@123"));
 
-        store.add(new User(UUID.randomUUID().toString(),"akshay","akshaygiri@gmail.com","pass@123"));
+        store.add(new User(UUID.randomUUID().toString(),"akshay","akshay@gmail.com","pass@123"));
 
-        store.add(new User(UUID.randomUUID().toString(),"chandra","chandragiri@gmail.com","pass@123"));
+        store.add(new User(UUID.randomUUID().toString(),"chandra","chandrag@gmail.com","pass@123"));
 
     }
     public List<User> getUsers(){
