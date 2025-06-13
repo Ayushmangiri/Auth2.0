@@ -22,6 +22,8 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
+
+        // old method was change please do carefully because i am stack here for some time
         http.csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(auth->
                         auth.requestMatchers("/home/**").authenticated()
